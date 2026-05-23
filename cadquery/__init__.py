@@ -13,6 +13,11 @@ Example usage::
 
     # Export to STEP
     cq.exporters.export(result, "box.step")
+
+Useful links:
+    - Documentation: https://cadquery.readthedocs.io
+    - GitHub: https://github.com/CadQuery/cadquery
+    - Examples: https://github.com/CadQuery/cadquery/tree/master/examples
 """
 
 from .cq import Workplane, CQContext
