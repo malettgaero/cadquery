@@ -18,6 +18,10 @@ Useful links:
     - Documentation: https://cadquery.readthedocs.io
     - GitHub: https://github.com/CadQuery/cadquery
     - Examples: https://github.com/CadQuery/cadquery/tree/master/examples
+
+Personal fork notes:
+    - Tracking upstream v2.5.0.dev0
+    - Added __author__ and __license__ to __all__ for easier introspection
 """
 
 from .cq import Workplane, CQContext
@@ -112,4 +116,6 @@ __all__ = [
     "StringSyntaxSelector",
     # Version info
     "__version__",
+    "__author__",
+    "__license__",
 ]
